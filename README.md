@@ -39,6 +39,7 @@ Find generated recommendations in `output/output.json`
 - `data/cards.json`: sample card rules
 - `data/merchants.json`: sample merchant knowledge base
 - `data/sample_queries.json`: example input queries
+- `data/extra_queries.json`: extra input queries
 - `tests/test_engine.py`: a few focused unit tests
 - `output/output.json`: an output file generated from `app.py`
 - `PRODUCT_NOTE.md`: short product and workflow note
