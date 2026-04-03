@@ -1,0 +1,26 @@
+[
+  {
+    "merchant": "Starbucks",
+    "category_hint": "coffee",
+    "amount": 12.5,
+    "user_cards": ["Max Cashback+", "Max Travel Visa"]
+  },
+  {
+    "merchant": "Amazon SG",
+    "category_hint": "shopping",
+    "amount": 84.2,
+    "user_cards": ["Max Online Rewards", "Max Everyday Mastercard"]
+  },
+  {
+    "merchant": "Don Don Donki",
+    "category_hint": "groceries",
+    "amount": 45.0,
+    "user_cards": ["Max Cashback+", "Max Everyday Mastercard"]
+  },
+  {
+    "merchant": "Agoda",
+    "category_hint": "travel",
+    "amount": 220.0,
+    "user_cards": ["Max Travel Visa", "Max Cashback+"]
+  }
+]

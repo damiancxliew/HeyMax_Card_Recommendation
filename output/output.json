@@ -1,0 +1,106 @@
+[
+  {
+    "recommended_card": "Max Cashback+",
+    "estimated_reward_rate": 5.0,
+    "estimated_rewards": 62.5,
+    "explanation": "Recognized 'Starbucks' as 'dining'. Max Cashback+ earns 5.0x in the resolved category.",
+    "confidence": "high",
+    "matched_merchant": "Starbucks",
+    "resolved_category": "dining",
+    "needs_update": false,
+    "type": null,
+    "reason": null,
+    "candidate_cards": [
+      {
+        "card_name": "Max Cashback+",
+        "reward_rate": 5.0,
+        "matched_category": "dining",
+        "estimated_rewards": 62.5
+      },
+      {
+        "card_name": "Max Travel Visa",
+        "reward_rate": 2.0,
+        "matched_category": "dining",
+        "estimated_rewards": 25.0
+      }
+    ]
+  },
+  {
+    "recommended_card": "Max Online Rewards",
+    "estimated_reward_rate": 6.0,
+    "estimated_rewards": 505.2,
+    "explanation": "Recognized 'Amazon' as 'online_shopping'. Max Online Rewards earns 6.0x in the resolved category.",
+    "confidence": "high",
+    "matched_merchant": "Amazon",
+    "resolved_category": "online_shopping",
+    "needs_update": false,
+    "type": null,
+    "reason": null,
+    "candidate_cards": [
+      {
+        "card_name": "Max Online Rewards",
+        "reward_rate": 6.0,
+        "matched_category": "online_shopping",
+        "estimated_rewards": 505.2
+      },
+      {
+        "card_name": "Max Everyday Mastercard",
+        "reward_rate": 1.5,
+        "matched_category": "general",
+        "estimated_rewards": 126.3
+      }
+    ]
+  },
+  {
+    "recommended_card": "Max Cashback+",
+    "estimated_reward_rate": 4.0,
+    "estimated_rewards": 180.0,
+    "explanation": "Merchant was unknown, so the recommendation relied on the category hint 'groceries'. Max Cashback+ earns 4.0x in the resolved category.",
+    "confidence": "medium",
+    "matched_merchant": null,
+    "resolved_category": "groceries",
+    "needs_update": true,
+    "type": "merchant_missing",
+    "reason": "Merchant not found in known merchant database.",
+    "candidate_cards": [
+      {
+        "card_name": "Max Cashback+",
+        "reward_rate": 4.0,
+        "matched_category": "groceries",
+        "estimated_rewards": 180.0
+      },
+      {
+        "card_name": "Max Everyday Mastercard",
+        "reward_rate": 2.0,
+        "matched_category": "groceries",
+        "estimated_rewards": 90.0
+      }
+    ]
+  },
+  {
+    "recommended_card": "Max Travel Visa",
+    "estimated_reward_rate": 4.0,
+    "estimated_rewards": 880.0,
+    "explanation": "Recognized 'Agoda' as 'hotels'. Max Travel Visa earns 4.0x in the resolved category.",
+    "confidence": "medium",
+    "matched_merchant": "Agoda",
+    "resolved_category": "hotels",
+    "needs_update": true,
+    "type": "category_conflict",
+    "reason": "Merchant data maps to 'hotels' but the incoming hint looks like 'travel_portal'.",
+    "candidate_cards": [
+      {
+        "card_name": "Max Travel Visa",
+        "reward_rate": 4.0,
+        "matched_category": "hotels",
+        "estimated_rewards": 880.0
+      },
+      {
+        "card_name": "Max Cashback+",
+        "reward_rate": 1.0,
+        "matched_category": "general",
+        "estimated_rewards": 220.0
+      }
+    ]
+  }
+]

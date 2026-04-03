@@ -1,0 +1,37 @@
+[
+  {
+    "merchant_name": "Amazon",
+    "normalized_name": "amazon",
+    "category": "online_shopping"
+  },
+  {
+    "merchant_name": "Shopee",
+    "normalized_name": "shopee",
+    "category": "online_shopping"
+  },
+  {
+    "merchant_name": "NTUC FairPrice",
+    "normalized_name": "ntuc fairprice",
+    "category": "groceries"
+  },
+  {
+    "merchant_name": "Starbucks",
+    "normalized_name": "starbucks",
+    "category": "dining"
+  },
+  {
+    "merchant_name": "Singapore Airlines",
+    "normalized_name": "singapore airlines",
+    "category": "airlines"
+  },
+  {
+    "merchant_name": "Grab",
+    "normalized_name": "grab",
+    "category": "transport"
+  },
+  {
+    "merchant_name": "Agoda",
+    "normalized_name": "agoda",
+    "category": "hotels"
+  }
+]
