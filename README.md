@@ -17,8 +17,11 @@ python -m unittest discover -s tests -v
 To use a custom input file:
 
 ```bash
-python app.py --input path/to/queries.json
+python app.py --input data/sample_queries.json 
+python app.py --input data/extra_queries.json
 ```
+
+Find generated recommendations in `output/output.json`
 
 ## What it does
 
@@ -58,4 +61,4 @@ python app.py --input path/to/queries.json
 
 ## AI usage
 
-I used AI as a coding assistant to help develop the prototype quickly + writing unit tests, but kept the implementation itself simple, deterministic, and easy to inspect.
+I used AI as a coding assistant to help develop the prototype quickly and writing unit tests, but kept the implementation itself simple, deterministic, and easy to inspect.
