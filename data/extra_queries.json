@@ -1,0 +1,32 @@
+[
+  {
+    "merchant": "Starbucks",
+    "category_hint": "coffee",
+    "amount": 12.5,
+    "user_cards": ["Imaginary Card"]
+  },
+  {
+    "merchant": "Starbucks",
+    "category_hint": "coffee",
+    "amount": 20.0,
+    "user_cards": ["Max Everyday Mastercard"]
+  },
+  {
+    "merchant": "Starbucks Orchard",
+    "category_hint": "cafe",
+    "amount": 9.0,
+    "user_cards": ["Max Cashback+", "Max Travel Visa"]
+  },
+  {
+    "merchant": "Mystery Boutique",
+    "category_hint": "",
+    "amount": 60.0,
+    "user_cards": ["Max Travel Visa", "Max Everyday Mastercard"]
+  },
+  {
+    "merchant": "Singapore Airlines",
+    "category_hint": "flight",
+    "amount": 100.0,
+    "user_cards": []
+  }
+]
